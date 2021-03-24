@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  
+}
+hr{
+  width: 100%;
+  position: fixed;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+}
+.header h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #5f6368;
+}
+.container{
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+form{
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 5px 15px -5px rgba(0,0,0,.3);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 100%; 
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin:10px 0;
+  font-weight: bold;
+}
+textarea{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin:10px 0;
+}
+  .btn{
+  width: 8px;
+  position: absolute;
+  left: 87%;
+  bottom: -2rem;
+  box-shadow: 3px 5px 15px -5px rgba(0,0,0,.3);
+  border-radius: 50% !important;
+}
+
+.MuiButton-root .add{
+  color: #f4b400;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+  font-weight: 900;
+  border-radius: 50% !important;
+}
+.note{
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin:16px;
+  float:left;
+  
+}
+.note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 0.8rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.btn1{
+  width: 8px;
+  position: absolute;
+  left: 75%;
+  box-shadow: 3px 5px 15px -5px rgba(0,0,0,.3);
+}
+.deleteIcon{
+  width: 0.7em;
+  height: 0.7em;
+  cursor: pointer;
+}
+.footer{
+  position: fixed;
+  height: 5vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#111;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media (max-width:450px){
+  .container{
+    width: 400px;
+
+  }
+}
+
+
