@@ -1,4 +1,4 @@
-![alt text](https://www.flaticon.com/svg/vstatic/svg/752/752326.svg?token=exp=1616609314~hmac=cb9ff2f58f7dd2a1516d3f5ca7376525) A Clone of Google Keep
+![alt text](https://img.icons8.com/fluent/48/000000/google-keep.png) A Clone of Google Keep
 
 
 
