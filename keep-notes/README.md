@@ -1,3 +1,7 @@
+![alt text](https://www.flaticon.com/svg/vstatic/svg/752/752326.svg?token=exp=1616609314~hmac=cb9ff2f58f7dd2a1516d3f5ca7376525) A Clone of Google Keep
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
